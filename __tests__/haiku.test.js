@@ -1,10 +1,10 @@
-// import Haiku from './../src/haiku.js';
+import Haiku from './../src/haiku.js';
 
 describe('Haiku', () => {
 
-  test('should correctly create a string', () => {
+  test('should return a string', () => {
     const sentence = new Haiku()
-    expect(sentence).toEqual(undefined)
-
+    expect(sentence.string).toEqual(undefined)
+    
   });
 });
